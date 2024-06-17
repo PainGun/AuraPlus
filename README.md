@@ -36,7 +36,7 @@ Clona este repositorio en tu máquina local:
 
 bash
 Copiar código
-git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+git clone https://github.com/PainGunAuraPlus.git
 Instala las dependencias del proyecto:
 
 bash
@@ -57,6 +57,6 @@ Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema, tienes ideas de nuevas características o mejoras, no dudes en abrir un issue o enviar un pull request. Trabajemos juntos para hacer que esta aplicación sea aún mejor.
 
 Contacto
-Si tienes alguna pregunta o sugerencia, puedes contactarme a través de mi perfil de GitHub o por correo electrónico a tu_correo_electronico@example.com.
+Si tienes alguna pregunta o sugerencia, puedes contactarme a través de mi perfil de GitHub o por correo electrónico a paingundev@gmail.com
 
 ¡Gracias por tu interés en mi proyecto! Espero que esta aplicación te sea útil y te ayude a mejorar tu organización personal y financiera.
