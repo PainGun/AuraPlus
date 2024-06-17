@@ -1,20 +1,25 @@
-import React from 'react';
-import { StatusBar, Text, View, StyleSheet } from 'react-native';
+// App.tsx
+import React, { useState } from 'react';
 import 'react-native-gesture-handler';
+import Home from './src/app/components/screens/Home';
+import Login from './src/app/components/screens/Login';
 
-export default function App() {
+const App: React.FC = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+  };
+
   return (
-    <View style={styles.container}>
-      <Text>Welcome to React Native!</Text>
-      <StatusBar barStyle="default" />
-    </View>
+    <>
+      {isLoggedIn ? (
+        <Home />
+      ) : (
+        <Login onLogin={handleLogin} />
+      )}
+    </>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+export default App;
