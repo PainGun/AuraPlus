@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput, Alert } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { Button, Icon } from 'react-native-elements';
 
-export default function App() {
+export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -21,7 +21,7 @@ export default function App() {
       <Text style={styles.title}>Inicio de Sesión</Text>
       <TextInput
         style={styles.input}
-        placeholder="Emailes"
+        placeholder="Email"
         value={email}
         onChangeText={setEmail}
         keyboardType="email-address"
